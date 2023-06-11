@@ -1,0 +1,64 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+}
+body {
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: url("Diablo_IV_cover_art.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: wheat;
+    text-align: center;
+    opacity: 80%;
+}
+
+div {
+    display:inline-block;
+    width: 70vw;
+    background-color: rgb(2, 2, 54);
+    text-align: center;
+    opacity: 80%;
+}
+
+#description {
+    font-style: italic;
+}
+
+#survey-form {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    position: relative;
+    position: center;
+    margin: auto;
+    width: 60vw;
+    font-size: larger;
+    color: wheat;
+    
+}
+
+form label {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-self: left;
+    text-align: start;
+}
+
+#yes-no-container {
+    position: relative;
+    left: 0%;
+    text-align: left;
+}
+
+#submit {
+    background-color: green;
+    color: white;
+    height: 40px;
+}
