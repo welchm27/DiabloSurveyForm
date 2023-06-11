@@ -20,7 +20,7 @@ body {
 
 #title, #description {
     color: firebrick;
-    text-shadow: 3px 3px 0px black;
+    text-shadow: 2px 1px 0px black;
     font-weight: bold;
 }
 
